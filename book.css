@@ -118,7 +118,7 @@ nav ul li a
 #second
 {
 	width: 100%;
-	height: 550px;
+	height: 600px;
 	background-image: url("jk.jpg");
 	background-size: cover;
 	display: flex;
@@ -126,7 +126,7 @@ nav ul li a
 #third
 {
 	width: 100%;
-	height: 550px;
+	height: 600px;
 	background-image: url("white.jpg");
 	background-size: cover;
 	display: flex;
@@ -135,7 +135,7 @@ nav ul li a
 #forth
 {
 	width: 100%;
-	height: 550px;
+	height: 600px;
 	background-image: url("jk.jpg");
 	background-size: cover;
 	display: flex;
@@ -144,7 +144,7 @@ nav ul li a
 #fifth
 {
 	width: 100%;
-	height: 550px;
+	height: 600px;
 	background-image: url("white.jpg");
 	background-size: cover;
 	display: flex;
@@ -152,7 +152,7 @@ nav ul li a
 #sixth
 {
 	width: 100%;
-	height: 550px;
+	height: 600px;
 	background-image: url("jk.jpg");
 	background-size: cover;
 	display: flex;
