@@ -1,0 +1,223 @@
+*
+{
+	margin:0px;
+	padding: 0px;
+}
+#main
+{
+	width: 100%;
+	height: 500px;
+	padding: 0px;
+}
+nav
+{
+	width: 100%;
+	height: 80px;
+	background-color: black;
+	line-height: 80px;
+}
+nav ul
+{
+	text-align: center;
+}
+nav ul li
+{
+	display: inline-block;
+}
+nav ul li:hover
+{
+	background-color: #f39d1a;
+	transition: 0.4s all;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px;
+	font-size: 25px;
+
+}
+.heading
+{
+	width: 100%;
+	height:200vh;
+	margin:0;
+	background-image: url(book.jpg);
+	background-size:cover;
+}
+.co
+{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+}
+.card
+{
+	width: 280px;
+	height: 450px;
+	margin-top: 50px;
+	padding: 16px;
+	background: #fff;
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+	transition: 0.5s ease-in-out;
+
+}
+.card:hover
+{
+	transform: translatey(20px);
+}
+.card:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display:block;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom,rgba(0,176,155,0.5),rgba(150,201,61,1));
+	z-index: 2;
+	transition: 0.5s all;
+	opacity: 0;
+}
+.card:hover:before
+{
+	opacity: 1;
+}
+.card img
+{
+	width: 100%;
+	height: 100%;
+	position: cover;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.card .info
+{
+	position: relative;
+	z-index: 3;
+	color: #fff;
+	opacity: 1;
+	transform: translateY(30px);
+	transition: 0.5s all;
+	margin-bottom: 15px;
+
+}
+.card:hover.info
+{
+	opacity: 1;
+	transform: translateY(30px);
+}
+#second
+{
+	width: 100%;
+	height: 550px;
+	background-image: url("jk.jpg");
+	background-size: cover;
+	display: flex;
+}
+#third
+{
+	width: 100%;
+	height: 550px;
+	background-image: url("white.jpg");
+	background-size: cover;
+	display: flex;
+}
+
+#forth
+{
+	width: 100%;
+	height: 550px;
+	background-image: url("jk.jpg");
+	background-size: cover;
+	display: flex;
+}
+
+#fifth
+{
+	width: 100%;
+	height: 550px;
+	background-image: url("white.jpg");
+	background-size: cover;
+	display: flex;
+}
+#sixth
+{
+	width: 100%;
+	height: 550px;
+	background-image: url("jk.jpg");
+	background-size: cover;
+	display: flex;
+}
+#image 
+{
+	width: 280px;
+	height: 420px;
+	margin-top: 35px;
+	margin-left: 10px;
+	background-color: #fff;
+	background-size: cover;
+ 
+}
+#content
+{
+	width: 800px;
+	height: 100px;
+	margin-left: 100px;
+}
+.container
+{
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+.button
+{
+	position: relative;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	font-size: 25px;
+	font-weight: 400;
+	border:1px solid #15f4ee;
+	background-color: white;
+	cursor: pointer;
+	border-radius: 35px;
+	transition: 1.5px;
+	margin-left: 140px;
+
+}
+.button:hover
+{
+	box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+				0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+}
+.btn
+{
+	position: relative;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: 200;
+	cursor: pointer;
+	border-radius: 35px;
+	transition: 1.5px;
+
+}
+.btn:hover
+{
+	box-shadow: 0 5px 0px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+				0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+}
+hr
+{
+	border-top: 3px dashed black;
+}
